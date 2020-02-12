@@ -1,0 +1,46 @@
+{
+  "name": "react-chrome-extension-cli",
+  "version": "0.2.0",
+  "description": "The CLI for your next Chrome Extension using React",
+  "repository": "",
+  "main": "index.js",
+  "bin": {
+    "react-chrome-extension-cli": "index.js"
+  },
+  "scripts": {
+    "format": "prettier --single-quote --trailing-comma es5 --write 'index.js' '{config,scripts,utils,templates}/**/*.js'"
+  },
+  "keywords": [
+    "react",
+    "chrome",
+    "extension",
+    "cli",
+    "javascript",
+    "node",
+    "webpack",
+    "google",
+    "template",
+    "popup",
+    "override-page",
+    "devtools"
+  ],
+  "author": {
+    "name": "dujuncheng",
+    "email": "1390851423@qq.com",
+    "url": "https://github.com/dujuncheng"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "cross-spawn": "^7.0.0",
+    "fs-extra": "^8.1.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
