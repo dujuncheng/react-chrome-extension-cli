@@ -36,22 +36,24 @@ Just create a project, and you’re good to go.
 ### Installation
 
 ```sh
-npm install -g chrome-extension-cli
+npm install -g react-chrome-extension-cli
 ```
 
 ### Usage
 
 ```sh
-chrome-extension-cli <project-name>
+react-chrome-extension-cli <project-name>
 ```
 
 Example:
 ```sh
-chrome-extension-cli my-extension
+react- chrome-extension-cli my-react-extension
 ```
 
-It will create a directory called `my-extension` inside the current folder.<br>
-Inside that directory, it will generate the initial project structure and install the transitive dependencies:
+It will create a directory called `my-extension` inside the current folder.
+
+<br>
+Inside that directory, it will generate the initial project structure and install the transitive dependencies, includes `React`, `Ant`
 
 ```
 my-extension
@@ -65,10 +67,7 @@ my-extension
 │   └── webpack.config.js
 ├── public
 │   ├── icons
-│   │   ├── icon_16.png
-│   │   ├── icon_32.png
-│   │   ├── icon_48.png
-│   │   ├── icon_128.png
+│   │   ├── logo.png
 │   ├── *.html                // HTML files will vary depending on extension type
 │   └── manifest.json
 └── src
@@ -86,7 +85,10 @@ Inside the newly created project, you can run some built-in commands:
 
 ### `npm run watch`
 
-Runs the app in development mode.<br>
+Runs the app in development mode.
+> 一定要调整为开发者模式
+
+<br>
 Then follow these instructions to see your app:
 1. Open **chrome://extensions**
 2. Check the **Developer mode** checkbox
