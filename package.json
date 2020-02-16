@@ -1,6 +1,6 @@
 {
   "name": "react-chrome-extension-cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "The CLI for your next Chrome Extension using React",
   "repository": "",
   "main": "index.js",
