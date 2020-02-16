@@ -24,10 +24,15 @@
     "override-page",
     "devtools"
   ],
+  "homepage": "https://github.com/dujuncheng/react-chrome-extension-cli",
+  "bugs": {
+    "url" : "https://github.com/dujuncheng/react-chrome-extension-cli/issues",
+    "email" : "1390851423@qq.com"
+  },
   "author": {
     "name": "dujuncheng",
     "email": "1390851423@qq.com",
-    "url": "https://github.com/dujuncheng"
+    "url": "https://github.com/dujuncheng/react-chrome-extension-cli/issues"
   },
   "engines": {
     "node": ">=8"

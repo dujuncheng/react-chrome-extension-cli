@@ -19,11 +19,6 @@ Then follow these instructions to see your extension:
 
 When you're ready to publish to Chrome Web Store, create a minified bundle with `npm run build` and then zip the `build` folder.
 
-<div align="center">
-  <img width="600" height="413" src="assets/installation.png" alt="Chrome Extension CLI">
-  <img width="600" height="413" src="assets/development.png" alt="Chrome Extension CLI">
-</div>
-
 ### Get Started Immediately
 
 You **don’t** need to install or configure Webpack.<br>
@@ -85,15 +80,13 @@ Inside the newly created project, you can run some built-in commands:
 
 ### `npm run watch`
 
-Runs the app in development mode.
-> 一定要调整为开发者模式
+一定要调整为开发者模式
+当使用 `npm run build` 打包完毕，可以加载到 chrome 浏览器中
 
-<br>
-Then follow these instructions to see your app:
-1. Open **chrome://extensions**
-2. Check the **Developer mode** checkbox
-3. Click on the **Load unpacked extension** button
-4. Select the folder **my-extension/build**
+1. 打开 **chrome://extensions**
+2. 确保打开了开发者模式 
+3. 点击 **Load unpacked extension** 按钮
+4. 选中 **my-extension/build** 目录
 
 ### `npm run build`
 
